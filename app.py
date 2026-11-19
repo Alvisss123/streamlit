@@ -40,16 +40,6 @@ import streamlit as st
 # ---------------------------------------------------------------------------
 # A retail manager enters a monthly sales target, selects a region, then
 # clicks Submit to see a summary.
-# Replace each ______ with the missing code. Do not pre-write answers in
-# functions — keep everything at top level.
-
-import streamlit as st
-
-# ---------------------------------------------------------------------------
-# Retail Business Dashboard
-# ---------------------------------------------------------------------------
-# A retail manager enters a monthly sales target, selects a region, then
-# clicks Submit to see a summary.
 
 # Blank A: page title (match the screenshot).
 st.title("Retail Business Dashboard")
@@ -83,3 +73,4 @@ if st.button("Submit"):
     # Challenge: if the sales target is greater than 100000, show an extra message (match the screenshot).
     if sales_target > 100000:
         st.write("High sales target set! Great ambition.")
+
