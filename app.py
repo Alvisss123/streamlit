@@ -72,5 +72,5 @@ if st.button("Submit"):
 
     # Challenge: if the sales target is greater than 100000, show an extra message (match the screenshot).
     if sales_target > 100000:
-        st.write("High sales target set! Great ambition.")
+        st.write("Great! You have set an ambitious target!.")
 
